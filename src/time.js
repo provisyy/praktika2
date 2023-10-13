@@ -1,4 +1,4 @@
-const sec = 3605;
-const min = (sec - 5) / 60;
-const hour = min / 60;
-console.log(hour, 'ч', (min / 60), 'мин', (sec % (min * hour)), 'сек');
+const sec = 3665 - ((60 * 60) + 60);
+const min = (3665 - 65) / 60 / 60;
+const hour = (3665 - 65) / 60 / 60;
+console.log(`${hour}\ч`) + (`${min\мин`) + (`${sec}\сек`);
